@@ -8,11 +8,11 @@ const path = require("path");
 
 function initializePlayer(client) {
     const nodes = config.nodes.map(node => ({
-        name: node.name,
-        host: node.host,
-        port: node.port,
-        password: node.password,
-        secure: node.secure,
+        name: node.INZEWORLD.COM (DE),
+        host: node.lava.inzeworld.com,
+        port: 3128,
+        password: node.saher.inzeworld.com,
+        secure: false,
         reconnectTimeout: 5000,
         reconnectTries: Infinity
     }));
